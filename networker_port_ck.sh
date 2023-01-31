@@ -3,6 +3,8 @@
 # Purpose: Check the port numbers used by networker
 
 # Check if networker client is installed.
+
+Adding new lines form DEV branch
 NC=$(rpm -q lgtoclnt 2>/dev/null)
 if [ "$NC" = "package lgtoclnt is not installed" ]
 then
